@@ -2,12 +2,12 @@ const name=['abul','babul','kabul','abul','babul','kabul','abul','babul','kabul'
 
 function duplicatName(name){
     const unique =[];
-    for (let i=0; i<name.length;i++){
+    /* for (let i=0; i<name.length;i++){
         const element=name[i];
-        // console.log(element);
-    }
+        console.log(element); */
+    
     for(const element of name){
-        console.log(element);
+        // console.log(element);
         if(unique.indexOf(element) ==-1){
             unique.push(element);
         }
@@ -16,5 +16,5 @@ function duplicatName(name){
 }
 
 const allName=duplicatName(name);
-// console.log(allName);
+console.log(allName);
  

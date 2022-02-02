@@ -10,5 +10,5 @@ function multipleAdd(num1,num2,num3){
     return total;
 }
 
-const pluse=multipleAdd(1,1,1);
+const pluse=multipleAdd(1,1,2);
 console.log(pluse);

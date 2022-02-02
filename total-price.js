@@ -20,7 +20,7 @@ const cart=[
 
 let carTotal=0;
 for(const product of cart){
-    console.log(product);
+    // console.log(product);
     const productTotal=product.price*product.quenty;
     carTotal = carTotal+productTotal;
 

@@ -12,3 +12,6 @@ function reves(text){
 const allRevwe= reves(geting);
 
 console.log(allRevwe);
+
+// let num = ['name','roll'];
+// console.log(num.reverse());
